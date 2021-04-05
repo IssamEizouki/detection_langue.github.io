@@ -83,7 +83,7 @@ Trie* constructTrie(char *dict) {
     ssize_t read;
     FILE *fp;
     
-    // ouvertire de fichier
+    // ouverture de fichier
     fp = fopen(dict, "r"); // read mode
     if (fp == NULL) {
         perror("Error while opening the file.\n");
